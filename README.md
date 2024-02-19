@@ -13,7 +13,10 @@ ScreenTranslator is a Python application that allows you to select a portion of 
 
 1. Download the `ScreenTranslatorApp.exe` file.
 2. Install Tesseract-OCR by placing the Tesseract-OCR folder into `C:\Program Files\`.
+    - You can download Tesseract-OCR from its [GitHub repository](https://github.com/tesseract-ocr/tesseract).
+    - Follow the installation instructions provided in the repository.
 3. Run `ScreenTranslatorApp.exe`.
+
 
 ## Usage
 
