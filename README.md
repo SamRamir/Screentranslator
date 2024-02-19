@@ -1,7 +1,10 @@
-ScreenTranslator
-ScreenTranslator is a Python application that allows users to select a portion of the screen and translate the text within that selection from English to Spanish.
+Screen Translator
+This Python application allows you to select a portion of the screen and translates the extracted text from English to Spanish.
 
-Features
-Screen Selection: Allows users to select any portion of the screen using a draggable selection box.
-Translation: Translates the selected text from English to Spanish.
-User-friendly Interface: Simple and intuitive interface for ease of use.
+How to Use
+Run the application.
+Click on "Iniciar Captura" (Start Capture) button.
+Select the portion of the screen you want to translate by clicking and dragging.
+Release the mouse button to capture the selected area.
+The extracted text will be translated and displayed in a new window.
+You can take a new screenshot or close the application using the buttons in the text window.
