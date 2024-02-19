@@ -1,0 +1,3 @@
+# Ignore large files generated during the build process
+dist/
+build/
