@@ -2,7 +2,7 @@ import tkinter as tk
 import pyautogui
 import pytesseract
 from PIL import Image, ImageTk
-from translate import Translator
+from googletrans import Translator
 
 class ScreenshotApp:
     def __init__(self, root):
@@ -58,9 +58,9 @@ class ScreenshotApp:
         return text
 
     def translate_text(self, text, src_lang, dest_lang):
-        translator = Translator(to_lang=dest_lang)
-        translation = translator.translate(text)
-        return translation
+        translator = Translator()
+        translation = translator.translate(text, src=src_lang, dest=dest_lang)
+        return translation.text
 
     def show_text_window(self, text):
         text_window = tk.Toplevel(self.root)
